@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prior_test</title>
+    <script>
+        var a=10;
+        var b=20;
+        var m=30;
+        var n=40;
+
+        var result;
+        result=a>b || b>=m || m>n; // || 연산자는 피연산자 중 true가 한개라도 포함되어 있으면 true를 반환한다.
+        document.write(result,"<br>");
+
+        result=a>b || b>=m || m<=n; 
+        document.write(result,"<br>");
+
+        result=a<=b && b>=m && m<=n; // && 연산자는 피연산자 중 false가 한 개라도 포함되어 있으면 false를 반환한다.
+        document.write(result,"<br>");
+
+        result=a<b && b<=m && m<=n;
+        document.write(result,"<br>");
+
+        result=!(a>b); // ! 연산자는 피연산자가 false이면 true를 반환한다.
+        document.write(result,"<br>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
